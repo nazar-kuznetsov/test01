@@ -1,0 +1,36 @@
+.sidebar nav {
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    height: 100%;
+    ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    li {
+        a {
+            padding: 0.714em 0.857em;
+            color: #333333;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .p-menuitem-text {
+                padding-left: 10px;
+            }
+
+            &.active {
+                background-color: #e8e7e7;
+            }
+        }
+    }
+
+    .option {
+        background-color: #f4f4f4;
+        color: #333333;
+        font-weight: 700;
+        padding: 0.714em 0.857em;
+    }
+}

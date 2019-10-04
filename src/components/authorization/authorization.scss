@@ -1,0 +1,15 @@
+.progress {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.auth-message {
+    color: #a7a4a4;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    &__error {
+        color: red;
+    }
+}
+

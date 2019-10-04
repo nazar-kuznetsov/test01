@@ -1,0 +1,18 @@
+.upload-prewie {
+    margin: 0 8px 8px 0;
+    width: calc(14.78% - 16px);
+    cursor: pointer;
+    &:hover img {
+        transform: scale(1.08);
+    }
+    img {
+        transition: 0.3s;
+        display: block;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        padding: 8px;
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+    }
+}

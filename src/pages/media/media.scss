@@ -1,0 +1,24 @@
+.upload-list {
+    display: flex;
+    flex-wrap: wrap;
+    video {
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+    // justify-content: center;
+}
+
+.media__header {
+    margin-bottom: 20px;
+}
+
+.upload-info {
+    display: block;
+    width: 100%;
+
+    input {
+        display: block;
+        width: 100%;
+    }
+}

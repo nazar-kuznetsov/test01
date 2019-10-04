@@ -1,0 +1,15 @@
+.table-users {
+    .delete-user {
+        text-align: center;
+        cursor: pointer;
+        svg {
+            transition: 0.3s;
+        }
+        &:hover {
+            svg {
+                transform: scale(1.3);
+                color: red;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.p-datatable table {
+    table-layout: auto;
+}
+
+.table-users {
+    h2 {
+        margin-top: 0;
+    }
+    .user-data-trash {
+        text-align: center;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+    }
+
+    .pi-trash:hover {
+        cursor: pointer;
+        &::before {
+            color: red;
+        }
+    }
+
+    .pi-pencil:before {
+        content: '\e93d';
+        width: 100%;
+        display: block;
+    }
+
+    .pi-pencil:hover {
+        &:before {
+            color: red;
+        }
+    }
+
+    .p-row-editor-init {
+        width: 100%;
+        display: block;
+        padding: 2px;
+    }
+
+    .pi-fw {
+        display: block;
+        width: 100%;
+    }
+
+    .p-inputgroup {
+        margin-bottom: 20px;
+    }
+
+    .p-dialog-content {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em !important;
+    }
+
+    .p-dialog {
+        top: 200px;
+    }
+}
+
+.table-users__button {
+    margin-bottom: 20px;
+}

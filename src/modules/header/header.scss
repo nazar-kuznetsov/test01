@@ -1,0 +1,102 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    ul {
+        list-style: none;
+    }
+    p {
+        margin: 0;
+    }
+
+
+    .user-block {
+        margin-left: auto;
+        margin-right: 25px;
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: auto;
+    }
+
+
+    .p-overlaypanel {
+        &::before,
+        &::after
+         {
+            content: none
+        }
+    }
+
+    .p-overlaypanel-content {
+        width: 300px;
+        height: 215px;
+
+        > div {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .user {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    button {
+        outline: none;
+        border: none;
+        &:focus {
+            border: none;
+            outline: none !important;
+        }
+    }
+
+    .user-logo {
+        display: block;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+    }
+}
+
+
+.drop-down__user-logo {
+    width: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    img {
+        max-width: 100%;
+    }
+}
+
+.user-block > button {
+    display: flex;
+    align-items: center;
+    background-color: transparent !important;
+    outline: none;
+    color: #fff !important;
+    a {
+        outline: none;
+    }
+    > span {
+        margin-right: 10px;
+    }
+    &:hover {
+        color: #fff !important;
+        background-color: transparent !important;
+    }
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #555;
+    p {
+        margin: 0 5px;
+    }
+}
